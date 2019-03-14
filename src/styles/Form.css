@@ -1,0 +1,57 @@
+.formErrors {
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: red;
+	text-transform: capitalize;
+}
+
+.demoForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.form-group {
+	text-align: center;
+	width: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 700;
+	line-height: 1.25rem;
+	padding: 10px;
+}
+
+.form-control {
+	width: 290px;
+	height: 25px;
+	font-size: 85%;
+	box-shadow: 2px 2px 0px 0 rgba(0, 0, 0, 0.1);
+	border: solid 1px #cccccc;
+}
+
+.form-control.has-error {
+	box-shadow: 0 0 5px red;
+  	padding: 3px 0px 3px 3px;
+  	margin: 5px 1px 3px 0px;
+  	border: 1px solid red;
+}
+
+.button {
+	margin-top: 30px;
+	width: 140px;
+	align-self: center;
+	background-color: #02ad02;
+	border: none;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 0.875rem;
+	height: 50px;
+	cursor: pointer;
+}
+
+.button:disabled {
+	background-color: #a8a6a6;
+	color: #595a59;
+	border: none;
+	cursor: default;
+}
